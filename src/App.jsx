@@ -14,6 +14,7 @@ function App() {
      <BrowserRouter>
      <Routes>
       <Route path="/" element={<AddFlight/>}/>
+      <Route path="/view" element={<ViewFlight/>}/>
 
 
      </Routes>
